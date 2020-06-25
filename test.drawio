@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-24T16:18:42.607Z" agent="5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="FKh3o7nGjNTLbKesG6Wu" version="13.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-06-25T14:33:36.172Z" agent="5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="v6PCd3IfFVfEK14iUu4_" version="13.3.0" type="github" pages="3">
   <diagram id="1gmsiKiEbywhcep5-7SZ" name="推送架构">
     <mxGraphModel dx="946" dy="524" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -206,7 +206,7 @@
             <mxPoint x="141" y="272" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_167evJI73FkvQBhIOkR-7" value="推送请求&lt;br&gt;（uid,src,ptype,level,msg）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_167evJI73FkvQBhIOkR-1">
+        <mxCell id="_167evJI73FkvQBhIOkR-7" value="推送请求&lt;br&gt;（uid,src,ptype,msg）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_167evJI73FkvQBhIOkR-1">
           <mxGeometry x="28" y="203" width="107" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_167evJI73FkvQBhIOkR-13" value="" style="group" vertex="1" connectable="0" parent="_167evJI73FkvQBhIOkR-1">
