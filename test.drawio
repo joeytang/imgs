@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-25T14:33:36.172Z" agent="5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="v6PCd3IfFVfEK14iUu4_" version="13.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-06-29T02:16:19.926Z" agent="5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="HFTelxhOrY3C533CSIHX" version="13.3.0" type="github" pages="4">
   <diagram id="1gmsiKiEbywhcep5-7SZ" name="推送架构">
     <mxGraphModel dx="946" dy="524" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -411,6 +411,101 @@
           <mxGeometry x="-0.1377" relative="1" as="geometry">
             <mxPoint x="4" y="-1.39" as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vI7WTgKBJ_mIyGKyhFNS" name="推送实现">
+    <mxGraphModel dx="1513" dy="613" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="6zhHXNrFhYMKChzCQ_a1-0" />
+        <mxCell id="6zhHXNrFhYMKChzCQ_a1-1" parent="6zhHXNrFhYMKChzCQ_a1-0" />
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6zhHXNrFhYMKChzCQ_a1-1" source="s9zN31DH2r4-Wa5S8OY2-22" target="s9zN31DH2r4-Wa5S8OY2-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-22" value="DB添加/更新&lt;br&gt;绑定信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6zhHXNrFhYMKChzCQ_a1-1">
+          <mxGeometry x="292" y="27" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6zhHXNrFhYMKChzCQ_a1-1" source="s9zN31DH2r4-Wa5S8OY2-23" target="s9zN31DH2r4-Wa5S8OY2-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-23" value="删除缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6zhHXNrFhYMKChzCQ_a1-1">
+          <mxGeometry x="483" y="29" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6zhHXNrFhYMKChzCQ_a1-1" source="s9zN31DH2r4-Wa5S8OY2-24" target="s9zN31DH2r4-Wa5S8OY2-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-27" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;收到绑定请求&lt;/span&gt;&lt;br style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;（uid,src,token,ttype）&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s9zN31DH2r4-Wa5S8OY2-26">
+          <mxGeometry x="0.0958" y="-1" relative="1" as="geometry">
+            <mxPoint x="-16" y="0.03" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-24" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="6zhHXNrFhYMKChzCQ_a1-1">
+          <mxGeometry x="-15" y="29" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-25" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="6zhHXNrFhYMKChzCQ_a1-1">
+          <mxGeometry x="667" y="29" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="6zhHXNrFhYMKChzCQ_a1-1" source="s9zN31DH2r4-Wa5S8OY2-32" target="s9zN31DH2r4-Wa5S8OY2-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="453.4145077720209" y="340.95721997667033" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-32" value="根据ptype获取&lt;br&gt;推送通道信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6zhHXNrFhYMKChzCQ_a1-1">
+          <mxGeometry x="302" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-35" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6zhHXNrFhYMKChzCQ_a1-1" source="s9zN31DH2r4-Wa5S8OY2-37" target="s9zN31DH2r4-Wa5S8OY2-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-36" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;收到推送请求&lt;/span&gt;&lt;br style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;（uid,src,ptype,msg）&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s9zN31DH2r4-Wa5S8OY2-35">
+          <mxGeometry x="0.0958" y="-1" relative="1" as="geometry">
+            <mxPoint x="-16" y="0.03" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-37" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="6zhHXNrFhYMKChzCQ_a1-1">
+          <mxGeometry x="-5" y="312" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-58" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6zhHXNrFhYMKChzCQ_a1-1" source="s9zN31DH2r4-Wa5S8OY2-40" target="s9zN31DH2r4-Wa5S8OY2-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-40" value="组装推送通道参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6zhHXNrFhYMKChzCQ_a1-1">
+          <mxGeometry x="662" y="255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-41" value="调用推送通道发送" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6zhHXNrFhYMKChzCQ_a1-1">
+          <mxGeometry x="821" y="255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-49" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="6zhHXNrFhYMKChzCQ_a1-1">
+          <mxGeometry x="466" y="239.5" width="29" height="201" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-61" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6zhHXNrFhYMKChzCQ_a1-1" source="s9zN31DH2r4-Wa5S8OY2-51" target="s9zN31DH2r4-Wa5S8OY2-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-51" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=-180;" vertex="1" parent="6zhHXNrFhYMKChzCQ_a1-1">
+          <mxGeometry x="941" y="233" width="29" height="207.5" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-60" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6zhHXNrFhYMKChzCQ_a1-1" source="s9zN31DH2r4-Wa5S8OY2-52" target="s9zN31DH2r4-Wa5S8OY2-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-52" value="组装自建长连接参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6zhHXNrFhYMKChzCQ_a1-1">
+          <mxGeometry x="662" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-53" value="调用自建长连接发送" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6zhHXNrFhYMKChzCQ_a1-1">
+          <mxGeometry x="821" y="343" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-54" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="6zhHXNrFhYMKChzCQ_a1-1">
+          <mxGeometry x="1006" y="304" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-57" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6zhHXNrFhYMKChzCQ_a1-1" source="s9zN31DH2r4-Wa5S8OY2-55" target="s9zN31DH2r4-Wa5S8OY2-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-55" value="获取推送通道token&lt;br&gt;（先缓存后db）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6zhHXNrFhYMKChzCQ_a1-1">
+          <mxGeometry x="502" y="255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-59" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6zhHXNrFhYMKChzCQ_a1-1" source="s9zN31DH2r4-Wa5S8OY2-56" target="s9zN31DH2r4-Wa5S8OY2-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s9zN31DH2r4-Wa5S8OY2-56" value="获取长连接token&lt;br&gt;（先缓存后db）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="6zhHXNrFhYMKChzCQ_a1-1">
+          <mxGeometry x="504" y="340" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
