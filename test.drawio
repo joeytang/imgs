@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-15T09:03:51.447Z" agent="5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="ZO7DXOMHrYDWDnzHhCZH" version="13.3.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2020-07-15T09:08:53.436Z" agent="5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="NYvIBQ8f9mtsKJCI_Fsg" version="13.3.5" type="github" pages="9">
   <diagram id="1gmsiKiEbywhcep5-7SZ" name="推送架构">
     <mxGraphModel dx="946" dy="511" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1423,6 +1423,11 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Lf6Y1JVFcwCP0ejmNtgy-2" value="这种case正常不应该有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rwIOBKhuii3uQe7zAAyL-34">
+          <mxGeometry x="0.2917" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="rwIOBKhuii3uQe7zAAyL-36" value="微信存在uid" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="rwIOBKhuii3uQe7zAAyL-1">
           <mxGeometry x="1183" y="809" width="80" height="80" as="geometry" />
         </mxCell>
@@ -1465,6 +1470,9 @@
         </mxCell>
         <mxCell id="rwIOBKhuii3uQe7zAAyL-44" value="手机/微信绑定到一个uid" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="rwIOBKhuii3uQe7zAAyL-1">
           <mxGeometry x="1333" y="1124" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf6Y1JVFcwCP0ejmNtgy-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rwIOBKhuii3uQe7zAAyL-1" source="rwIOBKhuii3uQe7zAAyL-45" target="Lf6Y1JVFcwCP0ejmNtgy-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rwIOBKhuii3uQe7zAAyL-45" value="手机注册一个uid，并把微信绑定上" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="rwIOBKhuii3uQe7zAAyL-1">
           <mxGeometry x="1163" y="549" width="120" height="60" as="geometry" />
@@ -1644,6 +1652,9 @@
         <mxCell id="rwIOBKhuii3uQe7zAAyL-90" value="手机已绑定微信" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="rwIOBKhuii3uQe7zAAyL-1">
           <mxGeometry x="1417" y="669" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="Lf6Y1JVFcwCP0ejmNtgy-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rwIOBKhuii3uQe7zAAyL-1" source="rwIOBKhuii3uQe7zAAyL-91" target="Lf6Y1JVFcwCP0ejmNtgy-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rwIOBKhuii3uQe7zAAyL-91" value="微信绑定到手机uid" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="rwIOBKhuii3uQe7zAAyL-1">
           <mxGeometry x="1603" y="679" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1655,13 +1666,16 @@
             <mxPoint x="1517" y="964" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lf6Y1JVFcwCP0ejmNtgy-0" value="这个case正常没有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rwIOBKhuii3uQe7zAAyL-93">
-          <mxGeometry x="-0.3429" y="1" relative="1" as="geometry">
-            <mxPoint x="35" y="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Lf6Y1JVFcwCP0ejmNtgy-1" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rwIOBKhuii3uQe7zAAyL-93">
           <mxGeometry x="-0.8209" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lf6Y1JVFcwCP0ejmNtgy-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rwIOBKhuii3uQe7zAAyL-1" source="rwIOBKhuii3uQe7zAAyL-94" target="Lf6Y1JVFcwCP0ejmNtgy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf6Y1JVFcwCP0ejmNtgy-5" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Lf6Y1JVFcwCP0ejmNtgy-4">
+          <mxGeometry x="0.3585" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1679,6 +1693,31 @@
         </mxCell>
         <mxCell id="rwIOBKhuii3uQe7zAAyL-98" value="未登录态&lt;br&gt;绑定子流程&lt;br&gt;(unionid&amp;amp;phone)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="rwIOBKhuii3uQe7zAAyL-1">
           <mxGeometry x="971" y="819" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf6Y1JVFcwCP0ejmNtgy-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rwIOBKhuii3uQe7zAAyL-1" source="Lf6Y1JVFcwCP0ejmNtgy-3" target="Lf6Y1JVFcwCP0ejmNtgy-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf6Y1JVFcwCP0ejmNtgy-8" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Lf6Y1JVFcwCP0ejmNtgy-7">
+          <mxGeometry x="-0.5472" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lf6Y1JVFcwCP0ejmNtgy-3" value="手机存在uid" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="rwIOBKhuii3uQe7zAAyL-1">
+          <mxGeometry x="1183" y="1044" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf6Y1JVFcwCP0ejmNtgy-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="rwIOBKhuii3uQe7zAAyL-1" source="Lf6Y1JVFcwCP0ejmNtgy-6" target="rwIOBKhuii3uQe7zAAyL-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="924" y="1084" />
+              <mxPoint x="924" y="1368" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lf6Y1JVFcwCP0ejmNtgy-6" value="手机绑定到微信上" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="rwIOBKhuii3uQe7zAAyL-1">
+          <mxGeometry x="1010" y="1054" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf6Y1JVFcwCP0ejmNtgy-9" value="执行登录并返回&lt;br&gt;（是否已绑定手机号；是否新用户；微信用户是否存在；微信用户是否绑定了手机号；用户信息；token信息）" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="rwIOBKhuii3uQe7zAAyL-1">
+          <mxGeometry x="1582.5" y="541" width="161" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
