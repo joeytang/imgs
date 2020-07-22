@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-22T03:34:37.679Z" agent="5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="GR3sYBWse02Z8znbiWiE" version="13.4.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2020-07-22T12:11:04.448Z" agent="5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="MFcAibpmOSMApO81som0" version="13.4.4" type="github" pages="11">
   <diagram id="1gmsiKiEbywhcep5-7SZ" name="推送架构">
     <mxGraphModel dx="1186" dy="511" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1947,7 +1947,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cZFXusYOiYA9TTC8IAEe" name="账号合并逻辑">
-    <mxGraphModel dx="1399" dy="538" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1872" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="RashcZLP4ygJSXO_ABBW-0" />
         <mxCell id="RashcZLP4ygJSXO_ABBW-1" parent="RashcZLP4ygJSXO_ABBW-0" />
@@ -2022,7 +2022,7 @@
         <mxCell id="RashcZLP4ygJSXO_ABBW-6" value="手机号注册" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="RashcZLP4ygJSXO_ABBW-1" vertex="1">
           <mxGeometry x="389" y="149" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RashcZLP4ygJSXO_ABBW-8" value="微信绑定到手机号上" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="RashcZLP4ygJSXO_ABBW-1" vertex="1">
+        <mxCell id="RashcZLP4ygJSXO_ABBW-8" value="微信绑定到手机号上登录返回" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="RashcZLP4ygJSXO_ABBW-1" vertex="1">
           <mxGeometry x="362" y="35" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RashcZLP4ygJSXO_ABBW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="RashcZLP4ygJSXO_ABBW-1" source="RashcZLP4ygJSXO_ABBW-17" target="RashcZLP4ygJSXO_ABBW-18" edge="1">
