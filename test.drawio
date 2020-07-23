@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-22T14:41:49.943Z" agent="5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="7QNM-72hS9zCSIFmdOjd" version="13.4.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2020-07-23T14:27:18.634Z" agent="5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="0ccbQy6eaoL6sVUHHKSd" version="13.4.4" type="github" pages="11">
   <diagram id="1gmsiKiEbywhcep5-7SZ" name="推送架构">
     <mxGraphModel dx="1186" dy="511" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1415,7 +1415,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7tKB8YYSByPF0n6eWo9M" name="账号合并-微信登录态绑定手机">
-    <mxGraphModel dx="1399" dy="538" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1872" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="I7XONH3aEFssyfK8JSaG-0" />
         <mxCell id="I7XONH3aEFssyfK8JSaG-1" parent="I7XONH3aEFssyfK8JSaG-0" />
@@ -1579,8 +1579,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0nLfw-KNeIvinFi6fh5A-41" value="合并到选择的uid上" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="I7XONH3aEFssyfK8JSaG-1">
-          <mxGeometry x="177" y="402" width="120" height="60" as="geometry" />
+        <mxCell id="0nLfw-KNeIvinFi6fh5A-41" value="执行合并" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="I7XONH3aEFssyfK8JSaG-1">
+          <mxGeometry x="177" y="397" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0nLfw-KNeIvinFi6fh5A-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="I7XONH3aEFssyfK8JSaG-1" source="0nLfw-KNeIvinFi6fh5A-44" target="0nLfw-KNeIvinFi6fh5A-51">
           <mxGeometry relative="1" as="geometry" />
@@ -1627,7 +1627,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XAQI0WVDusSHY1bdhvbU" name="账号合并-手机号登录态绑定微信">
-    <mxGraphModel dx="1798" dy="545" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1872" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="KSN7MenaoUeA6K7D2ECj-0" />
         <mxCell id="KSN7MenaoUeA6K7D2ECj-1" parent="KSN7MenaoUeA6K7D2ECj-0" />
@@ -1791,8 +1791,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fPmZtuNEZrAFOqjOWOS3-43" value="合并到选择的uid上" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="KSN7MenaoUeA6K7D2ECj-1" vertex="1">
-          <mxGeometry x="157" y="382" width="120" height="60" as="geometry" />
+        <mxCell id="fPmZtuNEZrAFOqjOWOS3-43" value="执行合并" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="KSN7MenaoUeA6K7D2ECj-1" vertex="1">
+          <mxGeometry x="158" y="377" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fPmZtuNEZrAFOqjOWOS3-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="KSN7MenaoUeA6K7D2ECj-1" source="fPmZtuNEZrAFOqjOWOS3-46" target="fPmZtuNEZrAFOqjOWOS3-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1907,7 +1907,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cZFXusYOiYA9TTC8IAEe" name="账号合并逻辑">
-    <mxGraphModel dx="1872" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1399" dy="538" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="RashcZLP4ygJSXO_ABBW-0" />
         <mxCell id="RashcZLP4ygJSXO_ABBW-1" parent="RashcZLP4ygJSXO_ABBW-0" />
@@ -1944,7 +1944,7 @@
         <mxCell id="RashcZLP4ygJSXO_ABBW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="RashcZLP4ygJSXO_ABBW-1" source="RashcZLP4ygJSXO_ABBW-4" target="RashcZLP4ygJSXO_ABBW-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RashcZLP4ygJSXO_ABBW-4" value="引导输入手机号" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="RashcZLP4ygJSXO_ABBW-1" vertex="1">
+        <mxCell id="RashcZLP4ygJSXO_ABBW-4" value="引导输入手机号&lt;br&gt;（不可跳过）" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="RashcZLP4ygJSXO_ABBW-1" vertex="1">
           <mxGeometry x="88" y="149" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RashcZLP4ygJSXO_ABBW-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="RashcZLP4ygJSXO_ABBW-1" source="RashcZLP4ygJSXO_ABBW-5" target="RashcZLP4ygJSXO_ABBW-6" edge="1">
@@ -1988,7 +1988,7 @@
         <mxCell id="RashcZLP4ygJSXO_ABBW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="RashcZLP4ygJSXO_ABBW-1" source="RashcZLP4ygJSXO_ABBW-17" target="RashcZLP4ygJSXO_ABBW-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RashcZLP4ygJSXO_ABBW-17" value="引导输入手机号" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="RashcZLP4ygJSXO_ABBW-1" vertex="1">
+        <mxCell id="RashcZLP4ygJSXO_ABBW-17" value="引导输入手机号&lt;br&gt;（可跳过使用微信登录）" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="RashcZLP4ygJSXO_ABBW-1" vertex="1">
           <mxGeometry x="-92" y="285" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RashcZLP4ygJSXO_ABBW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="RashcZLP4ygJSXO_ABBW-1" source="RashcZLP4ygJSXO_ABBW-18" target="RashcZLP4ygJSXO_ABBW-21" edge="1">
@@ -2076,22 +2076,22 @@
         <mxCell id="RashcZLP4ygJSXO_ABBW-32" value="合并账号" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="RashcZLP4ygJSXO_ABBW-1" vertex="1">
           <mxGeometry x="180" y="444" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RashcZLP4ygJSXO_ABBW-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="RashcZLP4ygJSXO_ABBW-1" source="RashcZLP4ygJSXO_ABBW-33" target="RashcZLP4ygJSXO_ABBW-43" edge="1">
+        <mxCell id="RashcZLP4ygJSXO_ABBW-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="RashcZLP4ygJSXO_ABBW-1" source="RashcZLP4ygJSXO_ABBW-49" target="RashcZLP4ygJSXO_ABBW-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RashcZLP4ygJSXO_ABBW-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="RashcZLP4ygJSXO_ABBW-1" source="RashcZLP4ygJSXO_ABBW-33" target="RashcZLP4ygJSXO_ABBW-49" edge="1">
+        <mxCell id="RashcZLP4ygJSXO_ABBW-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="RashcZLP4ygJSXO_ABBW-1" source="RashcZLP4ygJSXO_ABBW-33" target="RashcZLP4ygJSXO_ABBW-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RashcZLP4ygJSXO_ABBW-33" value="资产合并任务" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="RashcZLP4ygJSXO_ABBW-1" vertex="1">
+        <mxCell id="RashcZLP4ygJSXO_ABBW-33" value="账号合并历史" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="RashcZLP4ygJSXO_ABBW-1" vertex="1">
           <mxGeometry x="3" y="444" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RashcZLP4ygJSXO_ABBW-43" value="登录合并后uid返回" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="RashcZLP4ygJSXO_ABBW-1" vertex="1">
-          <mxGeometry x="3" y="533" width="120" height="60" as="geometry" />
+          <mxGeometry x="-151" y="548" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RashcZLP4ygJSXO_ABBW-37" value="登录微信uid返回" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="RashcZLP4ygJSXO_ABBW-1" vertex="1">
           <mxGeometry x="314" y="548" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RashcZLP4ygJSXO_ABBW-49" value="异步合并资产" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" parent="RashcZLP4ygJSXO_ABBW-1" vertex="1">
+        <mxCell id="RashcZLP4ygJSXO_ABBW-49" value="合并资产" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" parent="RashcZLP4ygJSXO_ABBW-1" vertex="1">
           <mxGeometry x="-151" y="444" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nJBlc51RYe3Iew54M0Vz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RashcZLP4ygJSXO_ABBW-1" source="nJBlc51RYe3Iew54M0Vz-0" target="RashcZLP4ygJSXO_ABBW-8">
@@ -2140,6 +2140,9 @@
         </mxCell>
         <mxCell id="63lmQElT0qHsJFVJFhc2-0" value="资产判断流程" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="RashcZLP4ygJSXO_ABBW-1">
           <mxGeometry x="446" y="444" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApRf6mIRqd7si3MXOdVR-0" value="产品可以考虑提示让用户使用该手机号登录" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=none;fontSize=15;fontColor=#330000;position2=1;" vertex="1" parent="RashcZLP4ygJSXO_ABBW-1">
+          <mxGeometry x="-72" y="15" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
