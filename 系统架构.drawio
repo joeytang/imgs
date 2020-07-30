@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-20T08:19:42.222Z" agent="5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="K8VB-QWXXTFml3ovCL9K" version="13.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-30T01:48:02.532Z" agent="5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="EPO5of0PH07ADtKSWJTK" version="13.4.4" type="github" pages="2">
   <diagram id="8qlgNCJZel72x5GJVPV0" name="内容安全风控">
     <mxGraphModel dx="1186" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,10 +68,36 @@
           <mxGeometry x="110" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Us8akTgwSVRLfupjCOX2-22" value="对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Us8akTgwSVRLfupjCOX2-23" value="直播" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="K2HWD6YoTp3Y8fvG3HZx" name="Page-2">
+    <mxGraphModel dx="1186" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Vd0DkhEF9ogsQgcuE8wi-0" />
+        <mxCell id="Vd0DkhEF9ogsQgcuE8wi-1" parent="Vd0DkhEF9ogsQgcuE8wi-0" />
+        <mxCell id="Vd0DkhEF9ogsQgcuE8wi-2" value="审核策略" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vd0DkhEF9ogsQgcuE8wi-1">
+          <mxGeometry x="260" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vd0DkhEF9ogsQgcuE8wi-3" value="处置策略" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vd0DkhEF9ogsQgcuE8wi-1">
+          <mxGeometry x="550" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vd0DkhEF9ogsQgcuE8wi-4" value="文本关键字审核" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vd0DkhEF9ogsQgcuE8wi-1">
+          <mxGeometry x="70" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vd0DkhEF9ogsQgcuE8wi-5" value="图片审核" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vd0DkhEF9ogsQgcuE8wi-1">
+          <mxGeometry x="230" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vd0DkhEF9ogsQgcuE8wi-6" value="音频审核" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vd0DkhEF9ogsQgcuE8wi-1">
+          <mxGeometry x="390" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vd0DkhEF9ogsQgcuE8wi-7" value="视频审核" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vd0DkhEF9ogsQgcuE8wi-1">
+          <mxGeometry x="550" y="380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
