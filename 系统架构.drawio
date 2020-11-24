@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-24T08:26:03.475Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="zWE1L2hm5ctNt_AYatwO" version="13.10.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-11-24T09:10:33.451Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="8GQe8AZPqP3nm9XulrrT" version="13.10.2" type="github" pages="3">
   <diagram id="8qlgNCJZel72x5GJVPV0" name="内容安全风控">
     <mxGraphModel dx="946" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -160,19 +160,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WYPWdckccShTIoV53l3D-2" value="智能客服" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WYPWdckccShTIoV53l3D-1">
-          <mxGeometry x="502" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="207" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WYPWdckccShTIoV53l3D-3" value="innerim" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WYPWdckccShTIoV53l3D-1">
-          <mxGeometry x="316" y="408" width="120" height="60" as="geometry" />
+          <mxGeometry x="21" y="258" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WYPWdckccShTIoV53l3D-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WYPWdckccShTIoV53l3D-1" source="WYPWdckccShTIoV53l3D-4" target="WYPWdckccShTIoV53l3D-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WYPWdckccShTIoV53l3D-4" value="外呼" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WYPWdckccShTIoV53l3D-1">
-          <mxGeometry x="502" y="408" width="120" height="60" as="geometry" />
+          <mxGeometry x="207" y="258" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WYPWdckccShTIoV53l3D-5" value="nlp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WYPWdckccShTIoV53l3D-1">
-          <mxGeometry x="675" y="408" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="258" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
