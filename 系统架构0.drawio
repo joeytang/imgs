@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-28T07:18:43.439Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="OvLnU1lh9kWDv5BJlqmI" version="13.10.2" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2020-12-28T07:19:23.133Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="NN2OgtqL8yY9kly0cO8N" version="13.10.2" type="github" pages="12">
   <diagram id="1gmsiKiEbywhcep5-7SZ" name="推送架构">
     <mxGraphModel dx="946" dy="510" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2062,7 +2062,7 @@
         <mxCell id="s_yuDYSpFoOtg6_nCYlu-15" value="视频审核策略" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="s_yuDYSpFoOtg6_nCYlu-1">
           <mxGeometry x="560" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="s_yuDYSpFoOtg6_nCYlu-21" value="第三方内容审核能力" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="s_yuDYSpFoOtg6_nCYlu-1">
+        <mxCell id="s_yuDYSpFoOtg6_nCYlu-21" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="s_yuDYSpFoOtg6_nCYlu-1">
           <mxGeometry x="428" y="440" width="252" height="100" as="geometry" />
         </mxCell>
         <mxCell id="s_yuDYSpFoOtg6_nCYlu-22" value="DB&lt;br&gt;（mongo/Tidb）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="s_yuDYSpFoOtg6_nCYlu-1">
@@ -2095,11 +2095,11 @@
         <mxCell id="NgwWuJ7rNryF113fHYLT-1" value="业&lt;br&gt;务&lt;br&gt;映&lt;br&gt;射" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="s_yuDYSpFoOtg6_nCYlu-1">
           <mxGeometry x="97" y="254.5" width="32" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="NgwWuJ7rNryF113fHYLT-2" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="s_yuDYSpFoOtg6_nCYlu-1">
-          <mxGeometry x="392" y="457" width="40" height="20" as="geometry" />
+        <mxCell id="NgwWuJ7rNryF113fHYLT-2" value="第三方审核能力" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="s_yuDYSpFoOtg6_nCYlu-1">
+          <mxGeometry x="460" y="425" width="97" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NgwWuJ7rNryF113fHYLT-3" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="s_yuDYSpFoOtg6_nCYlu-1">
-          <mxGeometry x="392" y="457" width="40" height="20" as="geometry" />
+        <mxCell id="NgwWuJ7rNryF113fHYLT-3" value="自研审核能力" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="s_yuDYSpFoOtg6_nCYlu-1">
+          <mxGeometry x="163" y="423" width="82" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
