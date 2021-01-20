@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-20T07:06:00.853Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="uKEwjwkU8FgFarsGeY2e" version="13.10.2" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2021-01-20T07:07:58.082Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="Uz3M0ZgkH0ArBYUL5f4G" version="13.10.2" type="github" pages="13">
   <diagram id="1gmsiKiEbywhcep5-7SZ" name="推送架构">
     <mxGraphModel dx="946" dy="510" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2208,14 +2208,17 @@
         <mxCell id="03vMR4mhB-jRr55p2ygS-7" value="客户端水位是否高于服务器端" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="03vMR4mhB-jRr55p2ygS-1">
           <mxGeometry x="363" y="124" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="03vMR4mhB-jRr55p2ygS-10" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="03vMR4mhB-jRr55p2ygS-1">
+        <mxCell id="03vMR4mhB-jRr55p2ygS-10" value="获取服务器端水位往前推90天的水位位置" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="03vMR4mhB-jRr55p2ygS-1">
           <mxGeometry x="503" y="134" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="03vMR4mhB-jRr55p2ygS-12" value="更新服务器水位" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="03vMR4mhB-jRr55p2ygS-1">
+        <mxCell id="03vMR4mhB-jRr55p2ygS-12" value="更新服务器水位到客户端水位maxmsgid" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="03vMR4mhB-jRr55p2ygS-1">
           <mxGeometry x="343" y="266" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="03vMR4mhB-jRr55p2ygS-18" value="客户端水位高，需要提高服务器水位" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="03vMR4mhB-jRr55p2ygS-1">
           <mxGeometry x="417" y="217" width="75" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="03vMR4mhB-jRr55p2ygS-19" value="拉取的数据不能超过90天，客户端水位已经是90天前的了，就丢弃了，因此客户端如果超过90天的消息实惠丢失的" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="03vMR4mhB-jRr55p2ygS-1">
+          <mxGeometry x="497" y="100" width="340" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
