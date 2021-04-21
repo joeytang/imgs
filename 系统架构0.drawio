@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T13:31:29.530Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="pv4HywmZ8XRtJYXWQeJY" version="14.5.8" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2021-04-21T13:38:33.054Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="k6NTcWfdLu9opMbwVZjN" version="14.5.8" type="github" pages="16">
   <diagram id="1gmsiKiEbywhcep5-7SZ" name="推送架构">
     <mxGraphModel dx="946" dy="543" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2882,6 +2882,12 @@
         </mxCell>
         <mxCell id="f9T9Epvbm8TaRWIdzchJ-168" value="组内平台化相关" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="f9T9Epvbm8TaRWIdzchJ-1">
           <mxGeometry x="1965" y="560" width="68" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="f9T9Epvbm8TaRWIdzchJ-169" value="1、组内&amp;lt;=4个人&lt;br&gt;2、根据服务/平台情况补充人&lt;br&gt;3、某个平台人员&amp;gt;3人，需要拆分一个组" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="f9T9Epvbm8TaRWIdzchJ-1">
+          <mxGeometry x="-14" y="894" width="293" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f9T9Epvbm8TaRWIdzchJ-170" value="1、backup机制，我需要有backup，每个组负责人需要有backup&lt;br&gt;2、组内人员流失，组负责人先负责&lt;br&gt;3、组负责人流失，我+组内人员负责，视情况招人或培养" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="f9T9Epvbm8TaRWIdzchJ-1">
+          <mxGeometry x="320" y="903" width="355" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
