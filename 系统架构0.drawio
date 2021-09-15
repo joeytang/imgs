@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T07:04:13.940Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="j8ITlcKCYUVYo7knZUcA" version="14.9.8" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2021-09-15T07:04:41.109Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="J9hh4k2fTD5iiHrsk_Ge" version="14.9.8" type="github" pages="18">
   <diagram id="1gmsiKiEbywhcep5-7SZ" name="推送架构">
     <mxGraphModel dx="946" dy="542" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3091,7 +3091,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TELzni-Xkmjpt4Hk5chD" name="用户服务关系">
-    <mxGraphModel dx="1773" dy="1711" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="542" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="CAWUmiejA04shWGEtUtP-0" />
         <mxCell id="CAWUmiejA04shWGEtUtP-1" parent="CAWUmiejA04shWGEtUtP-0" />
@@ -3111,8 +3111,8 @@
             <mxPoint x="1" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CAWUmiejA04shWGEtUtP-2" value="ucore" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
-          <mxGeometry x="231" y="187" width="120" height="60" as="geometry" />
+        <mxCell id="CAWUmiejA04shWGEtUtP-2" value="account" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
+          <mxGeometry x="395" y="232" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CAWUmiejA04shWGEtUtP-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CAWUmiejA04shWGEtUtP-1" source="CAWUmiejA04shWGEtUtP-3" target="CAWUmiejA04shWGEtUtP-5">
           <mxGeometry relative="1" as="geometry" />
@@ -3123,7 +3123,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CAWUmiejA04shWGEtUtP-3" value="auth" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
-          <mxGeometry x="496" y="213" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="258" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CAWUmiejA04shWGEtUtP-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="CAWUmiejA04shWGEtUtP-1" source="CAWUmiejA04shWGEtUtP-4" target="CAWUmiejA04shWGEtUtP-3">
           <mxGeometry relative="1" as="geometry" />
@@ -3142,10 +3142,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CAWUmiejA04shWGEtUtP-4" value="acl" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
-          <mxGeometry x="496" y="82" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="127" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CAWUmiejA04shWGEtUtP-5" value="token" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
-          <mxGeometry x="496" y="325" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CAWUmiejA04shWGEtUtP-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="CAWUmiejA04shWGEtUtP-1" source="CAWUmiejA04shWGEtUtP-10" target="CAWUmiejA04shWGEtUtP-4">
           <mxGeometry relative="1" as="geometry" />
@@ -3164,13 +3164,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CAWUmiejA04shWGEtUtP-10" value="gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
-          <mxGeometry x="84" y="-4" width="120" height="60" as="geometry" />
+          <mxGeometry x="248" y="41" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CAWUmiejA04shWGEtUtP-15" value="verifycode&lt;br&gt;(http)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
-          <mxGeometry x="78" y="282" width="120" height="60" as="geometry" />
+          <mxGeometry x="242" y="327" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CAWUmiejA04shWGEtUtP-24" value="storage&lt;br&gt;(http)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
-          <mxGeometry x="-62" y="286" width="120" height="60" as="geometry" />
+          <mxGeometry x="102" y="331" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CAWUmiejA04shWGEtUtP-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CAWUmiejA04shWGEtUtP-1" source="CAWUmiejA04shWGEtUtP-25" target="CAWUmiejA04shWGEtUtP-2">
           <mxGeometry relative="1" as="geometry" />
@@ -3192,7 +3192,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CAWUmiejA04shWGEtUtP-25" value="ucapi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
-          <mxGeometry x="78" y="105" width="120" height="60" as="geometry" />
+          <mxGeometry x="242" y="150" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
