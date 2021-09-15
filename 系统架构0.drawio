@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T12:05:30.936Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="HKbUhwSiRfGL--_DiCpW" version="14.9.8" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2021-09-15T07:04:13.940Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="j8ITlcKCYUVYo7knZUcA" version="14.9.8" type="github" pages="18">
   <diagram id="1gmsiKiEbywhcep5-7SZ" name="推送架构">
     <mxGraphModel dx="946" dy="542" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3091,28 +3091,28 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TELzni-Xkmjpt4Hk5chD" name="用户服务关系">
-    <mxGraphModel dx="946" dy="542" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="1711" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="CAWUmiejA04shWGEtUtP-0" />
         <mxCell id="CAWUmiejA04shWGEtUtP-1" parent="CAWUmiejA04shWGEtUtP-0" />
-        <mxCell id="CAWUmiejA04shWGEtUtP-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CAWUmiejA04shWGEtUtP-1" source="CAWUmiejA04shWGEtUtP-2" target="CAWUmiejA04shWGEtUtP-3">
+        <mxCell id="CAWUmiejA04shWGEtUtP-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="CAWUmiejA04shWGEtUtP-1" source="CAWUmiejA04shWGEtUtP-2" target="CAWUmiejA04shWGEtUtP-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CAWUmiejA04shWGEtUtP-21" value="获取认证信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CAWUmiejA04shWGEtUtP-8">
           <mxGeometry x="-0.5" y="2" relative="1" as="geometry">
-            <mxPoint x="23" as="offset" />
+            <mxPoint x="25" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CAWUmiejA04shWGEtUtP-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CAWUmiejA04shWGEtUtP-1" source="CAWUmiejA04shWGEtUtP-2" target="CAWUmiejA04shWGEtUtP-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CAWUmiejA04shWGEtUtP-19" value="发送/校验验证码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CAWUmiejA04shWGEtUtP-17">
+        <mxCell id="CAWUmiejA04shWGEtUtP-19" value="校验验证码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CAWUmiejA04shWGEtUtP-17">
           <mxGeometry x="-0.4667" y="-1" relative="1" as="geometry">
             <mxPoint x="1" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CAWUmiejA04shWGEtUtP-2" value="account" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
-          <mxGeometry x="156" y="222" width="120" height="60" as="geometry" />
+        <mxCell id="CAWUmiejA04shWGEtUtP-2" value="ucore" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
+          <mxGeometry x="231" y="187" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CAWUmiejA04shWGEtUtP-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CAWUmiejA04shWGEtUtP-1" source="CAWUmiejA04shWGEtUtP-3" target="CAWUmiejA04shWGEtUtP-5">
           <mxGeometry relative="1" as="geometry" />
@@ -3123,54 +3123,76 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CAWUmiejA04shWGEtUtP-3" value="auth" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
-          <mxGeometry x="398" y="224" width="120" height="60" as="geometry" />
+          <mxGeometry x="496" y="213" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CAWUmiejA04shWGEtUtP-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CAWUmiejA04shWGEtUtP-1" source="CAWUmiejA04shWGEtUtP-4" target="CAWUmiejA04shWGEtUtP-3">
+        <mxCell id="CAWUmiejA04shWGEtUtP-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="CAWUmiejA04shWGEtUtP-1" source="CAWUmiejA04shWGEtUtP-4" target="CAWUmiejA04shWGEtUtP-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CAWUmiejA04shWGEtUtP-14" value="验证认证信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CAWUmiejA04shWGEtUtP-7">
+        <mxCell id="CAWUmiejA04shWGEtUtP-14" value="认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CAWUmiejA04shWGEtUtP-7">
           <mxGeometry x="-0.5109" relative="1" as="geometry">
             <mxPoint x="9" y="17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CAWUmiejA04shWGEtUtP-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CAWUmiejA04shWGEtUtP-1" source="CAWUmiejA04shWGEtUtP-4" target="CAWUmiejA04shWGEtUtP-2">
+        <mxCell id="CAWUmiejA04shWGEtUtP-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="CAWUmiejA04shWGEtUtP-1" source="CAWUmiejA04shWGEtUtP-4" target="CAWUmiejA04shWGEtUtP-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CAWUmiejA04shWGEtUtP-13" value="取用户信息(主要是注册类型)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CAWUmiejA04shWGEtUtP-9">
+        <mxCell id="CAWUmiejA04shWGEtUtP-13" value="取用户信息用于鉴权" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CAWUmiejA04shWGEtUtP-9">
           <mxGeometry x="-0.2727" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CAWUmiejA04shWGEtUtP-4" value="doorkeeper" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
-          <mxGeometry x="398" y="91" width="120" height="60" as="geometry" />
+        <mxCell id="CAWUmiejA04shWGEtUtP-4" value="acl" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
+          <mxGeometry x="496" y="82" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CAWUmiejA04shWGEtUtP-5" value="token" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
-          <mxGeometry x="398" y="338" width="120" height="60" as="geometry" />
+          <mxGeometry x="496" y="325" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CAWUmiejA04shWGEtUtP-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CAWUmiejA04shWGEtUtP-1" source="CAWUmiejA04shWGEtUtP-10" target="CAWUmiejA04shWGEtUtP-4">
+        <mxCell id="CAWUmiejA04shWGEtUtP-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="CAWUmiejA04shWGEtUtP-1" source="CAWUmiejA04shWGEtUtP-10" target="CAWUmiejA04shWGEtUtP-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CAWUmiejA04shWGEtUtP-12" value="请求鉴权" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CAWUmiejA04shWGEtUtP-11">
+        <mxCell id="CAWUmiejA04shWGEtUtP-12" value="认证、鉴权" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CAWUmiejA04shWGEtUtP-11">
           <mxGeometry x="-0.2552" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CAWUmiejA04shWGEtUtP-10" value="gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
-          <mxGeometry x="151" y="84" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="CAWUmiejA04shWGEtUtP-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CAWUmiejA04shWGEtUtP-1" source="CAWUmiejA04shWGEtUtP-15" target="CAWUmiejA04shWGEtUtP-16">
+        <mxCell id="CAWUmiejA04shWGEtUtP-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CAWUmiejA04shWGEtUtP-1" source="CAWUmiejA04shWGEtUtP-10" target="CAWUmiejA04shWGEtUtP-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CAWUmiejA04shWGEtUtP-20" value="发送短信" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CAWUmiejA04shWGEtUtP-18">
-          <mxGeometry x="-0.4545" y="2" relative="1" as="geometry">
-            <mxPoint x="-4" y="6" as="offset" />
+        <mxCell id="CAWUmiejA04shWGEtUtP-32" value="业务接口转发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CAWUmiejA04shWGEtUtP-26">
+          <mxGeometry x="-0.5093" y="-1" relative="1" as="geometry">
+            <mxPoint y="13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CAWUmiejA04shWGEtUtP-15" value="verify" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
-          <mxGeometry x="156" y="327" width="120" height="60" as="geometry" />
+        <mxCell id="CAWUmiejA04shWGEtUtP-10" value="gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
+          <mxGeometry x="84" y="-4" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CAWUmiejA04shWGEtUtP-16" value="alert" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
-          <mxGeometry x="156" y="431" width="120" height="60" as="geometry" />
+        <mxCell id="CAWUmiejA04shWGEtUtP-15" value="verifycode&lt;br&gt;(http)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
+          <mxGeometry x="78" y="282" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CAWUmiejA04shWGEtUtP-24" value="storage&lt;br&gt;(http)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
+          <mxGeometry x="-62" y="286" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CAWUmiejA04shWGEtUtP-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CAWUmiejA04shWGEtUtP-1" source="CAWUmiejA04shWGEtUtP-25" target="CAWUmiejA04shWGEtUtP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CAWUmiejA04shWGEtUtP-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CAWUmiejA04shWGEtUtP-1" source="CAWUmiejA04shWGEtUtP-25" target="CAWUmiejA04shWGEtUtP-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CAWUmiejA04shWGEtUtP-30" value="存储" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CAWUmiejA04shWGEtUtP-28">
+          <mxGeometry x="-0.492" y="1" relative="1" as="geometry">
+            <mxPoint x="-6" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CAWUmiejA04shWGEtUtP-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CAWUmiejA04shWGEtUtP-1" source="CAWUmiejA04shWGEtUtP-25" target="CAWUmiejA04shWGEtUtP-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CAWUmiejA04shWGEtUtP-33" value="发送验证码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CAWUmiejA04shWGEtUtP-29">
+          <mxGeometry x="-0.7659" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CAWUmiejA04shWGEtUtP-25" value="ucapi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CAWUmiejA04shWGEtUtP-1">
+          <mxGeometry x="78" y="105" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
