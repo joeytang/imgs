@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T08:59:37.072Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="jAr8pNRozAhnjmB3ljNE" version="16.3.0" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2022-03-29T11:22:37.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="9_w5Tftb6kfIuAXbOHpF" version="16.3.0" type="github" pages="20">
   <diagram id="1gmsiKiEbywhcep5-7SZ" name="推送架构">
     <mxGraphModel dx="946" dy="542" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3408,6 +3408,34 @@
             <mxPoint x="366" y="280" as="sourcePoint" />
             <mxPoint x="758" y="280" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="b77bmwAr1Ud7hgNwnAhA-33" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="b77bmwAr1Ud7hgNwnAhA-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="435" as="sourcePoint" />
+            <mxPoint x="270" y="489" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b77bmwAr1Ud7hgNwnAhA-34" value="拉取完之后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b77bmwAr1Ud7hgNwnAhA-33">
+          <mxGeometry x="-0.5" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b77bmwAr1Ud7hgNwnAhA-35" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="b77bmwAr1Ud7hgNwnAhA-1">
+          <mxGeometry x="168" y="501" width="198" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="b77bmwAr1Ud7hgNwnAhA-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="b77bmwAr1Ud7hgNwnAhA-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="79" y="697" as="sourcePoint" />
+            <mxPoint x="168" y="697" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b77bmwAr1Ud7hgNwnAhA-37" value="m2水位" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b77bmwAr1Ud7hgNwnAhA-36">
+          <mxGeometry x="0.236" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b77bmwAr1Ud7hgNwnAhA-38" value="客户端当前记录的水位" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="b77bmwAr1Ud7hgNwnAhA-1">
+          <mxGeometry x="16" y="683" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
