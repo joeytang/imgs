@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T11:22:37.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="9_w5Tftb6kfIuAXbOHpF" version="16.3.0" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2022-03-29T11:25:29.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="_buyx-kXb80uEuWF7L4B" version="16.3.0" type="github" pages="20">
   <diagram id="1gmsiKiEbywhcep5-7SZ" name="推送架构">
     <mxGraphModel dx="946" dy="542" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3305,8 +3305,8 @@
       <root>
         <mxCell id="b77bmwAr1Ud7hgNwnAhA-0" />
         <mxCell id="b77bmwAr1Ud7hgNwnAhA-1" parent="b77bmwAr1Ud7hgNwnAhA-0" />
-        <mxCell id="b77bmwAr1Ud7hgNwnAhA-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="b77bmwAr1Ud7hgNwnAhA-1">
-          <mxGeometry x="170" y="11" width="196" height="196" as="geometry" />
+        <mxCell id="b77bmwAr1Ud7hgNwnAhA-2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="b77bmwAr1Ud7hgNwnAhA-1">
+          <mxGeometry x="170" y="73" width="196" height="134" as="geometry" />
         </mxCell>
         <mxCell id="b77bmwAr1Ud7hgNwnAhA-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" vertex="1" parent="b77bmwAr1Ud7hgNwnAhA-1">
           <mxGeometry x="170" y="209" width="196" height="196" as="geometry" />
@@ -3336,14 +3336,14 @@
         <mxCell id="b77bmwAr1Ud7hgNwnAhA-8" value="客户端当前记录的水位" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="b77bmwAr1Ud7hgNwnAhA-1">
           <mxGeometry x="15" y="193" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="b77bmwAr1Ud7hgNwnAhA-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="b77bmwAr1Ud7hgNwnAhA-1" source="b77bmwAr1Ud7hgNwnAhA-11" target="b77bmwAr1Ud7hgNwnAhA-10">
+        <mxCell id="b77bmwAr1Ud7hgNwnAhA-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="b77bmwAr1Ud7hgNwnAhA-1" source="b77bmwAr1Ud7hgNwnAhA-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-19" y="409" as="sourcePoint" />
-            <mxPoint x="-19" y="33" as="targetPoint" />
+            <mxPoint x="-11" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b77bmwAr1Ud7hgNwnAhA-10" value="时间更早" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="b77bmwAr1Ud7hgNwnAhA-1">
-          <mxGeometry x="-41" y="13" width="60" height="30" as="geometry" />
+          <mxGeometry x="-41" y="39" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="b77bmwAr1Ud7hgNwnAhA-11" value="时间更晚" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="b77bmwAr1Ud7hgNwnAhA-1">
           <mxGeometry x="-41" y="411" width="60" height="30" as="geometry" />
@@ -3400,7 +3400,7 @@
             <mxPoint x="378" y="212" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b77bmwAr1Ud7hgNwnAhA-30" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;请求：一直拉取到，响应的more为false，说明消息已全部拉到客户端。此时客户端将客户端端的水位设置为m2&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="b77bmwAr1Ud7hgNwnAhA-1">
+        <mxCell id="b77bmwAr1Ud7hgNwnAhA-30" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;请求：一直拉取到响应的more为false，说明消息已全部拉到客户端。此时客户端将客户端端的水位设置为m2&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="b77bmwAr1Ud7hgNwnAhA-1">
           <mxGeometry x="386" y="229" width="387" height="28" as="geometry" />
         </mxCell>
         <mxCell id="b77bmwAr1Ud7hgNwnAhA-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="b77bmwAr1Ud7hgNwnAhA-1">
@@ -3411,22 +3411,22 @@
         </mxCell>
         <mxCell id="b77bmwAr1Ud7hgNwnAhA-33" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="b77bmwAr1Ud7hgNwnAhA-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="270" y="435" as="sourcePoint" />
-            <mxPoint x="270" y="489" as="targetPoint" />
+            <mxPoint x="270" y="419" as="sourcePoint" />
+            <mxPoint x="270" y="458" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b77bmwAr1Ud7hgNwnAhA-34" value="拉取完之后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b77bmwAr1Ud7hgNwnAhA-33">
           <mxGeometry x="-0.5" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="1" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b77bmwAr1Ud7hgNwnAhA-35" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="b77bmwAr1Ud7hgNwnAhA-1">
-          <mxGeometry x="168" y="501" width="198" height="198" as="geometry" />
+        <mxCell id="b77bmwAr1Ud7hgNwnAhA-35" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="b77bmwAr1Ud7hgNwnAhA-1">
+          <mxGeometry x="173" y="461" width="198" height="126" as="geometry" />
         </mxCell>
         <mxCell id="b77bmwAr1Ud7hgNwnAhA-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="b77bmwAr1Ud7hgNwnAhA-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="79" y="697" as="sourcePoint" />
-            <mxPoint x="168" y="697" as="targetPoint" />
+            <mxPoint x="84" y="585" as="sourcePoint" />
+            <mxPoint x="173" y="585" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b77bmwAr1Ud7hgNwnAhA-37" value="m2水位" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b77bmwAr1Ud7hgNwnAhA-36">
@@ -3435,7 +3435,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b77bmwAr1Ud7hgNwnAhA-38" value="客户端当前记录的水位" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="b77bmwAr1Ud7hgNwnAhA-1">
-          <mxGeometry x="16" y="683" width="60" height="30" as="geometry" />
+          <mxGeometry x="21" y="571" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
