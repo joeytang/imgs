@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T11:25:29.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="_buyx-kXb80uEuWF7L4B" version="16.3.0" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2022-06-09T02:21:58.594Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="P5DIrP4V550b3cY0GIFh" version="17.2.4" type="github" pages="21">
   <diagram id="1gmsiKiEbywhcep5-7SZ" name="推送架构">
     <mxGraphModel dx="946" dy="542" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3436,6 +3436,26 @@
         </mxCell>
         <mxCell id="b77bmwAr1Ud7hgNwnAhA-38" value="客户端当前记录的水位" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="b77bmwAr1Ud7hgNwnAhA-1">
           <mxGeometry x="21" y="571" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ns7DGJvucrm1cc4flYm1" name="存储架构">
+    <mxGraphModel dx="946" dy="542" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7BvJbzmX6prsW8XRUs1e-1" value="cdn厂商" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="56" y="152" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7BvJbzmX6prsW8XRUs1e-2" value="bucket" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="294" y="357" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7BvJbzmX6prsW8XRUs1e-3" value="bucket" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="399" y="357" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7BvJbzmX6prsW8XRUs1e-4" value="bucket" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="512" y="360" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
