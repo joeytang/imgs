@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T09:33:14.744Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="2Hd1v8ey4i0YOjENx2eU" version="19.0.3" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2022-06-21T09:34:11.914Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="U4ZUBZH5bgcgwVR0hR_A" version="19.0.3" type="github" pages="21">
   <diagram id="1gmsiKiEbywhcep5-7SZ" name="推送架构">
     <mxGraphModel dx="946" dy="542" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3466,6 +3466,11 @@
         <mxCell id="yD2TJrVzkC6Lh6T9A36r-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yD2TJrVzkC6Lh6T9A36r-2" target="yD2TJrVzkC6Lh6T9A36r-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="yD2TJrVzkC6Lh6T9A36r-15" value="上传文件时写入日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yD2TJrVzkC6Lh6T9A36r-11">
+          <mxGeometry x="-0.4048" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="yD2TJrVzkC6Lh6T9A36r-2" value="storage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="424" y="398" width="120" height="60" as="geometry" />
         </mxCell>
@@ -3484,6 +3489,11 @@
         <mxCell id="yD2TJrVzkC6Lh6T9A36r-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yD2TJrVzkC6Lh6T9A36r-8" target="yD2TJrVzkC6Lh6T9A36r-10">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="129" y="488" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yD2TJrVzkC6Lh6T9A36r-16" value="OSS文件被访问时记录日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yD2TJrVzkC6Lh6T9A36r-9">
+          <mxGeometry x="-0.4048" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yD2TJrVzkC6Lh6T9A36r-8" value="OSS访问日志转存功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
