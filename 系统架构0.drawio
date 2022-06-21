@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T02:21:58.594Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="P5DIrP4V550b3cY0GIFh" version="17.2.4" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2022-06-21T09:33:14.744Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="2Hd1v8ey4i0YOjENx2eU" version="19.0.3" type="github" pages="21">
   <diagram id="1gmsiKiEbywhcep5-7SZ" name="推送架构">
     <mxGraphModel dx="946" dy="542" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3445,17 +3445,55 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7BvJbzmX6prsW8XRUs1e-1" value="cdn厂商" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7BvJbzmX6prsW8XRUs1e-1" value="cdn厂商" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="56" y="152" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7BvJbzmX6prsW8XRUs1e-2" value="bucket" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="294" y="357" width="60" height="80" as="geometry" />
+        <mxCell id="7BvJbzmX6prsW8XRUs1e-2" value="bucket" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="308" y="223" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7BvJbzmX6prsW8XRUs1e-3" value="bucket" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="399" y="357" width="60" height="80" as="geometry" />
+        <mxCell id="7BvJbzmX6prsW8XRUs1e-3" value="bucket" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="413" y="223" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7BvJbzmX6prsW8XRUs1e-4" value="bucket" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="512" y="360" width="60" height="80" as="geometry" />
+        <mxCell id="7BvJbzmX6prsW8XRUs1e-4" value="bucket" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="526" y="226" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yD2TJrVzkC6Lh6T9A36r-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yD2TJrVzkC6Lh6T9A36r-1" target="yD2TJrVzkC6Lh6T9A36r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yD2TJrVzkC6Lh6T9A36r-1" value="statlog" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="496" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yD2TJrVzkC6Lh6T9A36r-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yD2TJrVzkC6Lh6T9A36r-2" target="yD2TJrVzkC6Lh6T9A36r-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yD2TJrVzkC6Lh6T9A36r-2" value="storage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="398" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yD2TJrVzkC6Lh6T9A36r-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yD2TJrVzkC6Lh6T9A36r-4" target="yD2TJrVzkC6Lh6T9A36r-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yD2TJrVzkC6Lh6T9A36r-4" value="大数据任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="248" y="559" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yD2TJrVzkC6Lh6T9A36r-5" value="大数据DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="278" y="649" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yD2TJrVzkC6Lh6T9A36r-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yD2TJrVzkC6Lh6T9A36r-4" target="yD2TJrVzkC6Lh6T9A36r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yD2TJrVzkC6Lh6T9A36r-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yD2TJrVzkC6Lh6T9A36r-8" target="yD2TJrVzkC6Lh6T9A36r-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129" y="488" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yD2TJrVzkC6Lh6T9A36r-8" value="OSS访问日志转存功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="69" y="398" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yD2TJrVzkC6Lh6T9A36r-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yD2TJrVzkC6Lh6T9A36r-10" target="yD2TJrVzkC6Lh6T9A36r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yD2TJrVzkC6Lh6T9A36r-10" value="OSS访问日志文件" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="69" y="496" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
