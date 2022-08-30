@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T03:20:56.114Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="l8f_G6eq1oLjcN4olKOz" version="20.2.3" type="github" pages="25">
+<mxfile host="app.diagrams.net" modified="2022-08-30T03:23:07.837Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="igZK2uCtlXcxTK4K0fWX" version="20.2.3" type="github" pages="25">
   <diagram id="1gmsiKiEbywhcep5-7SZ" name="推送架构">
     <mxGraphModel dx="946" dy="541" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3952,6 +3952,15 @@
         </mxCell>
         <mxCell id="42PJp4I3wE9jMx1Eiqgb-37" value="客服弹窗功能打开" style="rhombus;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="53" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="42PJp4I3wE9jMx1Eiqgb-40" value="1048渠道" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="406" y="495" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42PJp4I3wE9jMx1Eiqgb-41" value="1050渠道" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="446" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42PJp4I3wE9jMx1Eiqgb-42" value="1062渠道" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="855" y="173" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
