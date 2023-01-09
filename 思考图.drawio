@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T11:24:10.960Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="QbZmrFgN110bijBjYqq9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-09T11:26:40.361Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="BugNnT8RVb_SSno7Sypk" type="github">
   <diagram id="fdzkevVaRtoIEABEt7VL" name="第 1 页">
     <mxGraphModel dx="1754" dy="1021" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-2" value="Status_Origin=-1//代表订单的起源" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="489" y="-210" width="120" height="60" as="geometry" />
+          <mxGeometry x="163" y="-196" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ceMc0I4QSkiQqL9lnHnG-3" target="ceMc0I4QSkiQqL9lnHnG-7">
           <mxGeometry relative="1" as="geometry" />
@@ -35,7 +35,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-3" value="Status_PaidNoSent=0//付费未发货&lt;br&gt;（Exchange）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="67" y="-32" width="120" height="60" as="geometry" />
+          <mxGeometry x="901" y="217" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ceMc0I4QSkiQqL9lnHnG-4" target="ceMc0I4QSkiQqL9lnHnG-7">
           <mxGeometry relative="1" as="geometry" />
@@ -57,7 +57,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1191" y="310.5" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="788" y="62" />
               <mxPoint x="1134" y="280" />
+              <mxPoint x="1048" y="114" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -70,7 +72,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-4" value="Status_ToBeSent=100//已申请发货&lt;br&gt;（ExchangeAndApplySend）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1111" y="159" width="160" height="60" as="geometry" />
+          <mxGeometry x="514" y="-115" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-43" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ceMc0I4QSkiQqL9lnHnG-5" target="ceMc0I4QSkiQqL9lnHnG-7">
           <mxGeometry relative="1" as="geometry" />
@@ -94,7 +96,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-5" value="&lt;div&gt;Status_Exported=150//已经导出&lt;/div&gt;&lt;div&gt;（Export）&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1227" y="28" width="120" height="60" as="geometry" />
+          <mxGeometry x="1261" y="-4" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ceMc0I4QSkiQqL9lnHnG-6" target="ceMc0I4QSkiQqL9lnHnG-7">
           <mxGeometry relative="1" as="geometry" />
@@ -120,16 +122,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-6" value="Status_Acked=175//物流管家收到ack&lt;br&gt;（StoreKeeperAck）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-81" y="194" width="120" height="60" as="geometry" />
+          <mxGeometry x="-104" y="177" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-55" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ceMc0I4QSkiQqL9lnHnG-7" target="ceMc0I4QSkiQqL9lnHnG-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-7" value="Status_Sent=200//200物流单&lt;br&gt;（ExchangeAndSend）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="881" y="-154" width="120" height="60" as="geometry" />
+          <mxGeometry x="1135" y="-225" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-9" value="Status_Cancel=250//250已取消&lt;br&gt;（Cancel）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1029" y="533" width="120" height="60" as="geometry" />
+          <mxGeometry x="1126" y="527" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-71" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;RecoverFromCanceled&lt;/span&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ceMc0I4QSkiQqL9lnHnG-10" target="ceMc0I4QSkiQqL9lnHnG-3">
           <mxGeometry relative="1" as="geometry">
@@ -139,7 +141,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-10" value="Status_RecoverableCanceled=275//275可恢复的已取消&lt;br&gt;（RecoverableCancel）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1065" y="721" width="219" height="60" as="geometry" />
+          <mxGeometry x="1010" y="704" width="219" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-34" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ceMc0I4QSkiQqL9lnHnG-11" target="ceMc0I4QSkiQqL9lnHnG-3">
           <mxGeometry relative="1" as="geometry" />
@@ -164,16 +166,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-11" value="Status_UnConfirm=300//订单附赠未确定&lt;br&gt;（CurriculumExchange）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="82" y="464" width="120" height="60" as="geometry" />
+          <mxGeometry x="480" y="825" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-69" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ceMc0I4QSkiQqL9lnHnG-13" target="ceMc0I4QSkiQqL9lnHnG-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-13" value="Status_Withdrawing=325//礼物退回中&lt;br&gt;（ApplyWithdraw）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1567" y="575" width="120" height="60" as="geometry" />
+          <mxGeometry x="1340" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-14" value="Status_Withdraw=350//礼物退回&lt;br&gt;（Withdraw）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1394" y="696" width="120" height="60" as="geometry" />
+          <mxGeometry x="1335" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-56" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ceMc0I4QSkiQqL9lnHnG-15" target="ceMc0I4QSkiQqL9lnHnG-9">
           <mxGeometry relative="1" as="geometry" />
@@ -192,7 +194,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-15" value="Status_Interrupt=400//拦单中&lt;br&gt;（Interrupt）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1289" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="1455" y="323" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-57" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ceMc0I4QSkiQqL9lnHnG-16" target="ceMc0I4QSkiQqL9lnHnG-9">
           <mxGeometry relative="1" as="geometry" />
@@ -224,7 +226,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-17" value="Status_Unpay=1000//未支付或者是预下单&lt;br&gt;（UnpayExchange）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="253" y="774" width="120" height="60" as="geometry" />
+          <mxGeometry x="104" y="527" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ceMc0I4QSkiQqL9lnHnG-18" target="ceMc0I4QSkiQqL9lnHnG-3">
           <mxGeometry relative="1" as="geometry" />
@@ -236,7 +238,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ceMc0I4QSkiQqL9lnHnG-18" value="Status_UnpayExpire=1025//未支付过期&lt;br&gt;（PassTrial）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="823" y="777" width="120" height="60" as="geometry" />
+          <mxGeometry x="808" y="797" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
