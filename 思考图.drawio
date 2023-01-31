@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T09:24:48.129Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ghNGUOziiHUHOFl-PK7Y" version="20.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-31T09:28:16.441Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="HrE6bKygS6AvJ-URck4t" version="20.8.5" type="github" pages="2">
   <diagram id="fdzkevVaRtoIEABEt7VL" name="第 1 页">
     <mxGraphModel dx="1506" dy="1021" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -345,24 +345,8 @@
         <mxCell id="NrKbqfEFh6pOJql4uNfm-5" value="商城" style="swimlane;startSize=20;html=1;" vertex="1" parent="NrKbqfEFh6pOJql4uNfm-2">
           <mxGeometry x="641" y="20" width="202" height="1150" as="geometry" />
         </mxCell>
-        <mxCell id="NrKbqfEFh6pOJql4uNfm-41" value="生成随单物流单&lt;br&gt;（待用户确认）" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="NrKbqfEFh6pOJql4uNfm-5">
+        <mxCell id="NrKbqfEFh6pOJql4uNfm-41" value="物流单&lt;br&gt;（待用户确认）" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="NrKbqfEFh6pOJql4uNfm-5">
           <mxGeometry x="33" y="418" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NrKbqfEFh6pOJql4uNfm-52" value="执行导入生成物流单" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="NrKbqfEFh6pOJql4uNfm-5">
-          <mxGeometry x="38" y="288" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NrKbqfEFh6pOJql4uNfm-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="NrKbqfEFh6pOJql4uNfm-5" source="NrKbqfEFh6pOJql4uNfm-52" target="NrKbqfEFh6pOJql4uNfm-62">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="178" y="318" />
-              <mxPoint x="178" y="561" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NrKbqfEFh6pOJql4uNfm-64" value="自动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NrKbqfEFh6pOJql4uNfm-63">
-          <mxGeometry x="-0.4013" relative="1" as="geometry">
-            <mxPoint x="-1" y="9" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="NrKbqfEFh6pOJql4uNfm-62" value="修改物流单发货中" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="NrKbqfEFh6pOJql4uNfm-5">
           <mxGeometry x="38" y="531" width="120" height="60" as="geometry" />
@@ -408,8 +392,10 @@
         <mxCell id="NrKbqfEFh6pOJql4uNfm-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NrKbqfEFh6pOJql4uNfm-2" source="NrKbqfEFh6pOJql4uNfm-40" target="NrKbqfEFh6pOJql4uNfm-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NrKbqfEFh6pOJql4uNfm-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NrKbqfEFh6pOJql4uNfm-2" source="NrKbqfEFh6pOJql4uNfm-46" target="NrKbqfEFh6pOJql4uNfm-52">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="NrKbqfEFh6pOJql4uNfm-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NrKbqfEFh6pOJql4uNfm-2" source="NrKbqfEFh6pOJql4uNfm-46" target="NrKbqfEFh6pOJql4uNfm-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="679" y="338" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="NrKbqfEFh6pOJql4uNfm-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NrKbqfEFh6pOJql4uNfm-2" source="NrKbqfEFh6pOJql4uNfm-41" target="NrKbqfEFh6pOJql4uNfm-59">
           <mxGeometry relative="1" as="geometry">
