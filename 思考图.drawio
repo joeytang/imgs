@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T09:28:16.441Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="HrE6bKygS6AvJ-URck4t" version="20.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-31T09:29:23.117Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="gsJvGSFA5JsJ_njemObT" version="20.8.5" type="github" pages="2">
   <diagram id="fdzkevVaRtoIEABEt7VL" name="第 1 页">
     <mxGraphModel dx="1506" dy="1021" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -322,7 +322,7 @@
         <mxCell id="NrKbqfEFh6pOJql4uNfm-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NrKbqfEFh6pOJql4uNfm-4" source="NrKbqfEFh6pOJql4uNfm-66" target="NrKbqfEFh6pOJql4uNfm-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NrKbqfEFh6pOJql4uNfm-66" value="导出待发物流单&lt;br&gt;（当天）" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="NrKbqfEFh6pOJql4uNfm-4">
+        <mxCell id="NrKbqfEFh6pOJql4uNfm-66" value="导出待发物流单&lt;br&gt;（当天下午或20点前）" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="NrKbqfEFh6pOJql4uNfm-4">
           <mxGeometry x="69" y="619" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NrKbqfEFh6pOJql4uNfm-69" value="发货单推到仓库" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;strokeWidth=2;" vertex="1" parent="NrKbqfEFh6pOJql4uNfm-4">
