@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-04T14:05:45.880Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="rgTtmjhU7JWExV2Ky90J" version="21.1.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-04T14:07:03.514Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="FusHJ4LDrJrckWmtGj2r" version="21.1.8" type="github" pages="4">
   <diagram id="fdzkevVaRtoIEABEt7VL" name="第 1 页">
     <mxGraphModel dx="1514" dy="1021" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -546,7 +546,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lCtk0CUF0yK4D_oKF3DB" name="抖店会员通流程">
-    <mxGraphModel dx="1514" dy="1021" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2205" dy="1228" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -626,8 +626,8 @@
         </mxCell>
         <mxCell id="b2DMOwMk1CvgPBlXA_gK-9" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="b2DMOwMk1CvgPBlXA_gK-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="809.6882898062343" y="593.5555419921875" as="sourcePoint" />
-            <mxPoint x="807.6882898062343" y="-159" as="targetPoint" />
+            <mxPoint x="807.6882898062343" y="457" as="sourcePoint" />
+            <mxPoint x="807.6882898062343" y="-93" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b2DMOwMk1CvgPBlXA_gK-32" value="基础配置" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="b2DMOwMk1CvgPBlXA_gK-4">
@@ -658,27 +658,27 @@
           <mxGeometry y="319" width="69.09856781802864" height="30" as="geometry" />
         </mxCell>
         <mxCell id="b2DMOwMk1CvgPBlXA_gK-10" value="准备和报名阶段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="332" y="-87" width="126" height="30" as="geometry" />
+          <mxGeometry x="319" y="13" width="126" height="30" as="geometry" />
         </mxCell>
         <mxCell id="b2DMOwMk1CvgPBlXA_gK-11" value="平台开发对接阶段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1032" y="-80" width="126" height="30" as="geometry" />
+          <mxGeometry x="1028" y="13" width="126" height="30" as="geometry" />
         </mxCell>
         <UserObject label="&amp;nbsp;详细地址&amp;nbsp; &amp;nbsp;https://bytedance.feishu.cn/docs/doccnOrw5wZGSp01eXvmRGPjlrd#" link="https://bytedance.feishu.cn/docs/doccnOrw5wZGSp01eXvmRGPjlrd#" linkTarget="_blank" id="b2DMOwMk1CvgPBlXA_gK-24">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="-24.996536254882812" y="-198.99588073730467" width="396" height="36" as="geometry" />
+            <mxGeometry x="-37.99653625488281" y="-143.99588073730467" width="396" height="36" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="b2DMOwMk1CvgPBlXA_gK-45" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1319" y="669.5555419921875" as="sourcePoint" />
-            <mxPoint x="1317" y="-83" as="targetPoint" />
+            <mxPoint x="1317" y="533" as="sourcePoint" />
+            <mxPoint x="1317" y="3" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b2DMOwMk1CvgPBlXA_gK-46" value="会员运营阶段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1345" y="-69" width="126" height="30" as="geometry" />
+          <mxGeometry x="1357" y="15" width="126" height="30" as="geometry" />
         </mxCell>
         <mxCell id="b2DMOwMk1CvgPBlXA_gK-47" value="未知问题：&lt;br&gt;1. 会员通资质通过后，是否要申请新的应用？ 若申请新应用是否要重新授权店铺，之前授权用了3工作日" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="558" y="-251" width="318" height="30" as="geometry" />
+          <mxGeometry x="-35" y="-90" width="318" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
