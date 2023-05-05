@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-04T14:07:03.514Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="FusHJ4LDrJrckWmtGj2r" version="21.1.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-05T04:00:40.308Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="RjqPE7yXFteuAgAXiVIL" version="21.1.8" type="github" pages="4">
   <diagram id="fdzkevVaRtoIEABEt7VL" name="第 1 页">
     <mxGraphModel dx="1514" dy="1021" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -631,13 +631,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b2DMOwMk1CvgPBlXA_gK-32" value="基础配置" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="b2DMOwMk1CvgPBlXA_gK-4">
-          <mxGeometry x="866.6882898062343" y="305" width="120" height="60" as="geometry" />
+          <mxGeometry x="866.69" y="305" width="65.31" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b2DMOwMk1CvgPBlXA_gK-43" value="会员运营配置" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="b2DMOwMk1CvgPBlXA_gK-4">
           <mxGeometry x="1341.6882898062343" y="35" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b2DMOwMk1CvgPBlXA_gK-36" value="场景对接" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="b2DMOwMk1CvgPBlXA_gK-4">
-          <mxGeometry x="1023.6882898062343" y="305" width="120" height="60" as="geometry" />
+          <mxGeometry x="967.69" y="305" width="54.31" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b2DMOwMk1CvgPBlXA_gK-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="b2DMOwMk1CvgPBlXA_gK-4" source="b2DMOwMk1CvgPBlXA_gK-32" target="b2DMOwMk1CvgPBlXA_gK-36">
           <mxGeometry relative="1" as="geometry" />
@@ -645,11 +645,20 @@
         <mxCell id="b2DMOwMk1CvgPBlXA_gK-38" value="压测上线" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="b2DMOwMk1CvgPBlXA_gK-4">
           <mxGeometry x="1189.6882898062343" y="305" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b2DMOwMk1CvgPBlXA_gK-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="b2DMOwMk1CvgPBlXA_gK-4" source="b2DMOwMk1CvgPBlXA_gK-36" target="b2DMOwMk1CvgPBlXA_gK-38">
+        <mxCell id="b2DMOwMk1CvgPBlXA_gK-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="b2DMOwMk1CvgPBlXA_gK-4" source="b2DMOwMk1CvgPBlXA_gK-36" target="b2DMOwMk1CvgPBlXA_gK-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b2DMOwMk1CvgPBlXA_gK-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="b2DMOwMk1CvgPBlXA_gK-4" source="b2DMOwMk1CvgPBlXA_gK-38" target="b2DMOwMk1CvgPBlXA_gK-43">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b2DMOwMk1CvgPBlXA_gK-49" value="接口调研" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="b2DMOwMk1CvgPBlXA_gK-4">
+          <mxGeometry x="312.6882898062342" y="307" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2DMOwMk1CvgPBlXA_gK-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="b2DMOwMk1CvgPBlXA_gK-4" source="b2DMOwMk1CvgPBlXA_gK-54" target="b2DMOwMk1CvgPBlXA_gK-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b2DMOwMk1CvgPBlXA_gK-54" value="约压测" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="b2DMOwMk1CvgPBlXA_gK-4">
+          <mxGeometry x="1091.69" y="305" width="54.31" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b2DMOwMk1CvgPBlXA_gK-6" value="研&lt;br&gt;发&lt;br&gt;@唐怀成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="b2DMOwMk1CvgPBlXA_gK-8">
           <mxGeometry x="3.4549283909014323" y="181" width="69.09856781802864" height="30" as="geometry" />
@@ -679,6 +688,15 @@
         </mxCell>
         <mxCell id="b2DMOwMk1CvgPBlXA_gK-47" value="未知问题：&lt;br&gt;1. 会员通资质通过后，是否要申请新的应用？ 若申请新应用是否要重新授权店铺，之前授权用了3工作日" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-35" y="-90" width="318" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b2DMOwMk1CvgPBlXA_gK-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b2DMOwMk1CvgPBlXA_gK-50" target="b2DMOwMk1CvgPBlXA_gK-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b2DMOwMk1CvgPBlXA_gK-50" value="接口编码" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="511.00000000000006" y="381" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2DMOwMk1CvgPBlXA_gK-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b2DMOwMk1CvgPBlXA_gK-49" target="b2DMOwMk1CvgPBlXA_gK-50">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
