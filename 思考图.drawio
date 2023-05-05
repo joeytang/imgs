@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-05T06:36:28.988Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="WuamUXC8OvCrRcQAZP9Q" version="21.1.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-05T08:47:40.453Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="-Js0O17vozmTyJq6JGM7" version="21.1.8" type="github" pages="4">
   <diagram id="fdzkevVaRtoIEABEt7VL" name="第 1 页">
     <mxGraphModel dx="1514" dy="1021" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -582,6 +582,14 @@
         </mxCell>
         <mxCell id="b2DMOwMk1CvgPBlXA_gK-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="b2DMOwMk1CvgPBlXA_gK-4" source="b2DMOwMk1CvgPBlXA_gK-13" target="b2DMOwMk1CvgPBlXA_gK-15">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b2DMOwMk1CvgPBlXA_gK-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="b2DMOwMk1CvgPBlXA_gK-4" source="b2DMOwMk1CvgPBlXA_gK-17" target="b2DMOwMk1CvgPBlXA_gK-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="544" y="123" />
+              <mxPoint x="385" y="123" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="b2DMOwMk1CvgPBlXA_gK-17" value="抖店后台开通(1~3工作日审批)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="b2DMOwMk1CvgPBlXA_gK-4">
           <mxGeometry x="483.68828980623425" y="29" width="120" height="60" as="geometry" />
