@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T09:40:38.457Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="JluBonuf1RxoFDeYSozz" version="22.1.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-12-04T09:49:31.757Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="gXgipWJf29s2rMYxfCPb" version="22.1.5" type="github" pages="6">
   <diagram id="8qlgNCJZel72x5GJVPV0" name="内容安全风控">
     <mxGraphModel dx="1114" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -324,7 +324,7 @@
         <mxCell id="Zgcqohzm3o3HtuwjH5dc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zgcqohzm3o3HtuwjH5dc-1" target="Zgcqohzm3o3HtuwjH5dc-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Zgcqohzm3o3HtuwjH5dc-1" value="查找flow实例" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Zgcqohzm3o3HtuwjH5dc-1" value="查找flow实例（内存中）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="102" y="147" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zgcqohzm3o3HtuwjH5dc-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zgcqohzm3o3HtuwjH5dc-2" target="Zgcqohzm3o3HtuwjH5dc-6">
@@ -372,8 +372,11 @@
         <mxCell id="Zgcqohzm3o3HtuwjH5dc-9" value="执行状态判断" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="102" y="371" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Zgcqohzm3o3HtuwjH5dc-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zgcqohzm3o3HtuwjH5dc-11" target="Zgcqohzm3o3HtuwjH5dc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Zgcqohzm3o3HtuwjH5dc-11" value="uid、flowid、version加锁" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-49" y="143" width="120" height="60" as="geometry" />
+          <mxGeometry x="-76" y="147" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zgcqohzm3o3HtuwjH5dc-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zgcqohzm3o3HtuwjH5dc-12" target="Zgcqohzm3o3HtuwjH5dc-26">
           <mxGeometry relative="1" as="geometry" />
@@ -416,23 +419,26 @@
         <mxCell id="Zgcqohzm3o3HtuwjH5dc-24" value="查找当前任务" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="353" y="371" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zgcqohzm3o3HtuwjH5dc-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zgcqohzm3o3HtuwjH5dc-35" target="Zgcqohzm3o3HtuwjH5dc-31">
+        <mxCell id="Zgcqohzm3o3HtuwjH5dc-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zgcqohzm3o3HtuwjH5dc-33" target="Zgcqohzm3o3HtuwjH5dc-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zgcqohzm3o3HtuwjH5dc-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zgcqohzm3o3HtuwjH5dc-26" target="Zgcqohzm3o3HtuwjH5dc-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Zgcqohzm3o3HtuwjH5dc-26" value="找到当前任务" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Zgcqohzm3o3HtuwjH5dc-26" value="找到当前任务（内存中）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="353" y="504" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zgcqohzm3o3HtuwjH5dc-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zgcqohzm3o3HtuwjH5dc-31" target="Zgcqohzm3o3HtuwjH5dc-33">
+        <mxCell id="Zgcqohzm3o3HtuwjH5dc-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zgcqohzm3o3HtuwjH5dc-35" target="Zgcqohzm3o3HtuwjH5dc-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Zgcqohzm3o3HtuwjH5dc-31" value="调用run" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="353" y="744" width="120" height="60" as="geometry" />
+        <mxCell id="Zgcqohzm3o3HtuwjH5dc-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zgcqohzm3o3HtuwjH5dc-31" target="Zgcqohzm3o3HtuwjH5dc-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zgcqohzm3o3HtuwjH5dc-31" value="调用run（看子流程）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="840" width="120" height="135" as="geometry" />
         </mxCell>
         <mxCell id="Zgcqohzm3o3HtuwjH5dc-33" value="流程实例状态设置成&quot;运行中&quot;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="353" y="860" width="120" height="60" as="geometry" />
+          <mxGeometry x="353" y="731" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zgcqohzm3o3HtuwjH5dc-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zgcqohzm3o3HtuwjH5dc-35" target="Zgcqohzm3o3HtuwjH5dc-37">
           <mxGeometry relative="1" as="geometry" />
@@ -440,8 +446,43 @@
         <mxCell id="Zgcqohzm3o3HtuwjH5dc-35" value="查找任务实例" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="353" y="604" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Zgcqohzm3o3HtuwjH5dc-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zgcqohzm3o3HtuwjH5dc-37" target="Zgcqohzm3o3HtuwjH5dc-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Zgcqohzm3o3HtuwjH5dc-37" value="创建一个任务实例保存到db" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="553" y="604" width="120" height="60" as="geometry" />
+          <mxGeometry x="599" y="604" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zgcqohzm3o3HtuwjH5dc-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zgcqohzm3o3HtuwjH5dc-45" target="Zgcqohzm3o3HtuwjH5dc-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zgcqohzm3o3HtuwjH5dc-49" value="结束" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zgcqohzm3o3HtuwjH5dc-48">
+          <mxGeometry x="-0.3027" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zgcqohzm3o3HtuwjH5dc-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zgcqohzm3o3HtuwjH5dc-45" target="Zgcqohzm3o3HtuwjH5dc-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zgcqohzm3o3HtuwjH5dc-45" value="判断状态" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="1022" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zgcqohzm3o3HtuwjH5dc-47" value="修改任务状态为”完成“" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="553" y="1022" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zgcqohzm3o3HtuwjH5dc-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zgcqohzm3o3HtuwjH5dc-50" target="Zgcqohzm3o3HtuwjH5dc-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zgcqohzm3o3HtuwjH5dc-50" value="返回结果（gpt回复的文本，gpt调用的函数等）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="1162" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zgcqohzm3o3HtuwjH5dc-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zgcqohzm3o3HtuwjH5dc-52" target="Zgcqohzm3o3HtuwjH5dc-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zgcqohzm3o3HtuwjH5dc-52" value="修改任务状态为”进行中“" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="153" y="1162" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zgcqohzm3o3HtuwjH5dc-56" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-67" y="1152" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
